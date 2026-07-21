@@ -10,4 +10,4 @@ jobs:
     steps:
       - run: echo "Hello from GitHub Actions!"
       - run: date
-      - run: echo "Branch: ${{ github.ref_name }}"
+      - run: echo "Branch: ${{ github.ref }}"
