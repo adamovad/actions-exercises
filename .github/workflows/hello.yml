@@ -8,6 +8,6 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello from GitHub Actions!"
+      - run: echo Hello from GitHub Actions!
       - run: date
-      - run: echo "Branch: ${{ github.ref }}"
+      - run: echo Branch is ${{ github.ref_name }}
